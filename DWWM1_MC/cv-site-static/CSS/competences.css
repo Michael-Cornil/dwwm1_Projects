@@ -1,0 +1,59 @@
+body{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+.container-competences{
+    background-color:#F3F0F3;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    width:100vw;
+    height:80vh;
+}
+
+.competences{
+    justify-content:center;
+    text-align:center;
+    font-family: 'Poiret  One',cursive;
+    font-size:large;
+    color: #AB989F;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:40%;
+}
+
+.competences li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.container-img{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+}
+
+.container-competences img{
+    margin:0;
+    padding:0;
+    width:20%;
+    height:auto;
+}
+
+footer{
+    background-color:#F3F0F3;
+    position:relative;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height:10vh;
+}
